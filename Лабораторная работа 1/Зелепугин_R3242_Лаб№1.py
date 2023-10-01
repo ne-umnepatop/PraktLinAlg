@@ -329,7 +329,7 @@ def zadanie3():
 
         return decoded_b
 
-    print(f'Итого в качестве интересного 4-х буквенного слова я выбрал: \033[4m{Interesting_World}\033[0m')
+    print(f'Итого в качестве интересного 4-х буквенного слова я выбрал: \033[4m{Interesting_World}\033[0m\n')
     coDEAD = zamena(Interesting_World)
     Hide_Interest = shifr(coDEAD)  # Кодируем данные
     print("Закодированное при помощи G слово с проверочными битами:")
